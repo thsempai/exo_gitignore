@@ -4,5 +4,5 @@ with file in open("data.txt"):
     
     data = file.readline()
     while(data):
-        print(data)
+        print(f"- {data}")
         data = file.readline()
