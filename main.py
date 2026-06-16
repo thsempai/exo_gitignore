@@ -6,3 +6,10 @@ with file in open("data.txt"):
     while(data):
         print(f"- {data}")
         data = file.readline()
+from random import randint
+
+for i in range(3):
+    print("Bonjour")
+
+if randint(1, 6) == 6:
+    print("Ok.")
